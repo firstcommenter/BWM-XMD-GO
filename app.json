@@ -27,7 +27,7 @@
     },
     "OWNER_NUMBER": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces. Ex: 254748387615",
-      "required": true
+      "required": false
     },
     "DATABASE_URL": {
       "description": "PostgreSQL database URL (optional, uses SQLite if not set)",
@@ -120,7 +120,7 @@
     },
     "AUTO_STATUS_LIKE": {
       "description": "Auto-like status: on or off",
-      "value": "off",
+      "value": "on",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -175,7 +175,7 @@
     },
     "WELCOME_GOODBYE": {
       "description": "Enable welcome/goodbye messages: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "WELCOME_MSG": {
@@ -190,7 +190,7 @@
     },
     "SHOW_PROMOTIONS": {
       "description": "Show promotion/demotion messages: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "BOT_URL": {
