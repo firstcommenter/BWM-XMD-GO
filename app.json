@@ -65,7 +65,7 @@
     },
     "ANTI_CALL": {
       "description": "Anti-call feature: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "ANTI_CALL_ACTION": {
@@ -105,7 +105,7 @@
     },
     "AUTO_BIO": {
       "description": "Auto-bio feature: on or off",
-      "value": "on",
+      "value": "off",
       "required": false
     },
     "AUTO_BIO_MSG": {
